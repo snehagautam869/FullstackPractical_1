@@ -44,11 +44,8 @@ body{
 .content {
     height: 550px;
     width: 100%;
-    /border: 2px solid red;/
     margin-bottom: 10px;
-    
 }
-
 .content::after {
     display: block;
     content: '';
