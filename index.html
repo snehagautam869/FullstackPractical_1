@@ -4,125 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="practical11.css">
+    <title>Custom Plan Table Template</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="practical12.css">
+   
 </head>
 <body>
-    <table width="800px" align="center">
-        <caption>
-            Fullstack Live Practical Book
-        </caption>
+    <div class="wrapper">
+    <h2>Select Your Plan</h2>
+    <table class="custom-table">
+        <colgroup class="basic"></colgroup>
+        <colgroup class="plus"></colgroup>
+        <colgroup class="deluxe"></colgroup>
+        <colgroup class="pro"></colgroup>
         <thead>
             <tr>
-                <th>#</th>
-                <th>Practical Name</th>
-                <th>Link</th>
-                <th>Status</th>
-                <th>Tools</th>
+                <th><i class="fa fa-building"></i>Basic</th>
+                <th><i class="fa fa-superpowers"></i>Plus</th>
+                <th><i class="fa fa-telegram"></i>Deluxe</th>
+                <th><i class="fa fa-tachometer"></i>Pro</th>
             </tr>
+            <tbody>
+                <tr>
+                    <td>Rs. 500</td>
+                    <td>Rs. 1500</td>
+                    <td>Rs. 2500</td>
+                    <td>Rs. 2500</td>
+                </tr>
+                <tr>
+                    <td>50 pages</td>
+                    <td>75 pages</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>3 Users</td>
+                    <td>5 Users</td>
+                    <td>10 Users</td>
+                    <td>Unlimited</td>
+
+                </tr>
+                <tr>
+                    <td>10 Sites</td>
+                    <td>50 Sites</td>
+                    <td>100 Sites</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>50 MB</td>
+                    <td>250 MB</td>
+                    <td>1 GB</td>
+                    <td>5 GB</td>
+                </tr>
+                <tr>
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                    <td>included</td>
+                </tr>
+                <tr>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="x"><i class="fa fa-times"></i></td>
+                    <td class="check"><i class="fa fa-check"></i></td>
+                  </tr>
+            </tbody>                    
+            <tfoot>
+                <tr>
+                <td><a href="#">Sign Up</a></td>
+                <td><a href="#">Sign Up</a></td>
+                <td><a href="#">Sign Up</a></td>
+                <td><a href="#">Sign Up</a></td>
+                </tr>
+            </tfoot>
         </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-1</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-2</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-3</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-4</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-5</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-6</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-7</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-8</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-9</td>
-                <td class="check">Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td class="data">Create a Web page including HTML basic skeleton using offline HTML Editor and online Sandbox Environment</td>
-                <td class="link">Practical-10</td>
-                <td class="check">Un-Checked</td>
-                <td class="flex">
-                    <img src="img/pencil.png" alt="">
-                    <img src="img/bin.png" alt="">
-                </td>
-            </tr>
-        </tbody>
     </table>
+    </div>>
 </body>
 </html>
