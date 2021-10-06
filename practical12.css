@@ -28,16 +28,16 @@ table{
     border-collapse: collapse;
 }
 .basic{
-    background-color: lightsalmon;
+    background-color: lightseagreen;
 }
 .plus{
-    background-color: rgb(253, 255, 122);
+    background-color:lightcoral;
 }
 .deluxe{
-    background-color: lightsalmon;
+    background-color: lightseagreen;
 }
 .pro{
-    background-color: rgb(253, 255, 122);
+    background-color: lightcoral;
 }
 .custom-table td,
 .custom-table th{
