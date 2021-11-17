@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./practical13.css">
-    <title>Practical 14</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Practical</title>
+    <link rel="stylesheet" href="practical.css">
+    <script
+      src="https://kit.fontawesome.com/59bbb9dc7f.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
-
 <body>
-    <h1>COUNTER</h1>
+    <div class="container">
+        <div class="header">
+            <div class="navigationbar">
+                <div class="inside">
+              <h1 class="h1">Appland</h1>
+              <ul>
+                <li><a href="#" style="color: #5f7dbd;">Home</a></li>
+                <li><a href="#" style="color: #8890a1;">App Features</a></li>
+                <li><a href="#"style="color: #8890a1;">Gallery</a></li>
+                <li><a href="#"style="color: #8890a1;">Pricing</a></li>
+                <li><a href="#"style="color: #8890a1;">FAQ</a></li>
+                <li><a href="#"style="color: #8890a1;">Dropdown</a></li>
+                <i class="fas fa-angle-down" style="color: #8890a1;"></i>
+                <li><a href="#" style="color: #8890a1;">Contact</a></li>
+                <li><button href="#">Get Started</button></li>
+                    
+              </ul>
+            </div>
+            </div>
+        </div>
+        <div class="mcontent">
+        <div class="Content">
+            <div class="left">
+                <h1 class="lh1">App landing page template</h1>
+                <p class="lp" style="color: #52607e;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consequatur autem, eveniet officia numquam delectus aliquid eius minima voluptatem perspiciatis!</p>
+                <div class="cbutton">
+                  <button class="googleplay">Google Play</button>
+                  <button class="appstore"> App Store</button>
+              </div>
+              <img src="img/Template-48.png" alt="img" style="height: 80vh; width: 40vw; ">
 
-    <div="container">
-        <button class="inc" onclick="increment()">+</button>
-        <h2 id="counting"></h2>
-        <button id="decc" class="dec" onclick="decrement()">-</button>
+            </div>
+            <!-- <div class="right">
+                <img src="Template-48Pic.png" alt="img" style="height: 50vh; width: 30vw;">
+            </div> -->
+            <!-- <img src="Template-48Pic.png" alt="img" style="height: 50vh; width: 30vw;"> -->
+
+            
+        </div>
+      </div>
     </div>
 
-    <script>
-        var data = 0;
-        var bt = document.getElementById("decc");
-        bt.disabled = true;
-        document.getElementById("counting").innerText = data;
-        function increment() {
-            var bt = document.getElementById("decc");
-            bt.disabled = false;
-            data = data + 1;
-            document.getElementById("counting").innerText = data;
-        }
-        function decrement() {
-            var bt = document.getElementById("decc");
-            data = data - 1;
-            document.getElementById("counting").innerText = data;
-            if (data <= 0) {
-                bt.disabled = true;
-            }
-        }
-    </script>
 </body>
-
 </html>
